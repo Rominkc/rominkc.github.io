@@ -1,0 +1,33 @@
+#video {
+    top:0;
+    left: 0;
+    min-width:100%;
+    min-height:100%;
+    z-index: -50;
+    text-align:center;
+    position: fixed;
+}
+.home-header{
+    display:block;
+    text-align: center;
+    margin-top: 150px;
+    color: white;
+    min-width:100%;
+    box-sizing: border-box;
+}
+.home-icon{
+    display:block;
+    text-align: center;
+    color: white;
+    min-width:100%;
+    box-sizing: border-box;
+}
+.icon-hm{
+    margin:5px;
+}
+a .brand-ico{
+color: white;
+}
+a .brand-ico:hover{
+color: rgb(223, 223, 223);
+}  

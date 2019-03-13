@@ -1,0 +1,96 @@
+.image-styles-portfH{
+    width:100%;
+   margin-top:100px;
+}
+.image-styles-portfV{
+    width:50%;
+    margin-top:100px;
+   
+}
+/*Calculated gallery dimensions based on aspect ratio the picture's aspect ratio (width /padding top) i.e 1:1 = 100%/100% These are custom aspect ratios/styles for each of the projects*/
+#gallery-overlay-RPG{
+    width: 50%;
+    padding-top: 97.56%;
+    left:25%;
+}
+#gallery-overlay-BS2D{
+    width: 100%;
+    padding-top: 56.3%;
+    left:0;
+
+}
+#gallery-overlay-OSE{
+    width: 100%;
+    padding-top: 48.6%;
+    left:0;
+}
+#gallery-overlay-BS2D .gallery-items button,#gallery-overlay-OSE .gallery-items button{
+padding:2%;
+}
+/*Overlay Options commons between elements*/
+#gallery-overlay-RPG,#gallery-overlay-BS2D,#gallery-overlay-OSE{
+    position:absolute;
+    top:95px;
+    background-color: rgba(7, 7, 7, 0.349);
+  opacity: 0;
+  transition-property: opacity;
+  transition-duration: .3s;
+  flex-direction: column;
+  justify-content: center;
+  display:flex;
+  color: white;
+  font-size: 2em;
+  border-radius: 10px;
+}
+.gallery-items h4 {
+    font-weight:700;
+}
+/* Overlay appears when you hover over it, Stylings of the children of the overlay */
+#gallery-overlay-RPG:hover,#gallery-overlay-BS2D:hover,#gallery-overlay-OSE:hover{
+    opacity: 1;
+}
+.gallery-items{
+   position: absolute;
+   top:0;
+   left:0;
+   display:flex;
+   flex-direction: column;
+   align-items:center;
+   justify-content: center;
+   width:100%
+}
+/* Custom Button Styles */
+.gallery-items button{
+    border-radius: 10px;
+    background: rgb(55, 92, 104);
+    border-color: rgb(55, 99, 95);
+    color: white;
+    line-height: .8;
+    padding: 5%;
+    font-size: 1rem;
+    transition-property: background-color, border, transform;
+    transition-duration: .3s;
+    margin-top: 5%;
+    width:76%;
+    
+}
+.gallery-items button:hover{
+    transform: scale(1.1);
+    background-color: rgb(0, 110, 124);
+    border-color: rgb(0, 107, 110);
+}
+
+/* Edit the buttons that appear to the sides when the modal gallery pops up */
+button:focus {
+    outline: 5px auto rgb(0,0,0,.2);
+}
+
+/*Edit the bootstrap css that controlled where the image would lie within the column*/
+.col-12 {
+    text-align: center;
+}
+@media (min-width: 768px){
+    .col-md-4 {
+        text-align: center;
+    }
+}
