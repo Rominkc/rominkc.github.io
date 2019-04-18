@@ -7,6 +7,15 @@
     text-align:center;
     position: fixed;
 }
+#videoOverlay{
+    top:0;
+    left: 0;
+    min-width:100%;
+    min-height:100%;
+    position: fixed;
+    z-index:-49;
+    background-color:rgba(0, 0, 0, 0.473);
+}
 .home-header{
     display:block;
     text-align: center;

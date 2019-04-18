@@ -9,6 +9,7 @@ import  Home  from './components/Home';
 import About from './components/About';
 import Contact from './components/Contact';
 import Projects from './components/Projects';
+import VideoBackGround from './components/videobackground';
 library.add(fab,faFilePdf,faEnvelope);
 class App extends Component {
   render() {
@@ -16,6 +17,7 @@ class App extends Component {
       <Router>
       <div className="App">
         <NavBar/>
+        <VideoBackGround />
         <Route path ="/" exact component ={Home}/>
         <Route path ="/about" component ={About}/>
         <Route path ="/contact" component ={Contact}/>

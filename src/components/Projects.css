@@ -7,13 +7,14 @@
     margin-top:100px;
    
 }
-/*Calculated gallery dimensions based on aspect ratio the picture's aspect ratio (width /padding top) i.e 1:1 = 100%/100% These are custom aspect ratios/styles for each of the projects*/
+/*Calculated gallery dimensions based on aspect ratio, the picture's aspect ratio 
+(width /padding top) i.e 1:1 = 100%/100% These are custom aspect ratios/styles for each of the projects*/
 #gallery-overlay-RPG{
     width: 50%;
     padding-top: 97.56%;
     left:25%;
 }
-#gallery-overlay-BS2D{
+#gallery-overlay-BS2D, #gallery-overlay-UNC{
     width: 100%;
     padding-top: 56.3%;
     left:0;
@@ -24,11 +25,16 @@
     padding-top: 48.6%;
     left:0;
 }
+/*Edit spacing between buttons */
 #gallery-overlay-BS2D .gallery-items button,#gallery-overlay-OSE .gallery-items button{
 padding:2%;
 }
+#gallery-overlay-UNC .gallery-items button{
+    padding:1.5%;
+    margin-top:0;
+}
 /*Overlay Options commons between elements*/
-#gallery-overlay-RPG,#gallery-overlay-BS2D,#gallery-overlay-OSE{
+#gallery-overlay-RPG,#gallery-overlay-BS2D,#gallery-overlay-OSE,#gallery-overlay-UNC{
     position:absolute;
     top:95px;
     background-color: rgba(7, 7, 7, 0.349);
@@ -46,7 +52,7 @@ padding:2%;
     font-weight:700;
 }
 /* Overlay appears when you hover over it, Stylings of the children of the overlay */
-#gallery-overlay-RPG:hover,#gallery-overlay-BS2D:hover,#gallery-overlay-OSE:hover{
+#gallery-overlay-RPG:hover,#gallery-overlay-BS2D:hover,#gallery-overlay-OSE:hover,#gallery-overlay-UNC:hover{
     opacity: 1;
 }
 .gallery-items{
@@ -75,7 +81,7 @@ padding:2%;
     
 }
 .gallery-items button:hover{
-    transform: scale(1.1);
+    transform: scale(1.2);
     background-color: rgb(0, 110, 124);
     border-color: rgb(0, 107, 110);
 }
