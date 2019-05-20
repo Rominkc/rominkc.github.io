@@ -49,7 +49,7 @@ padding:2%;
  
 }
 .gallery-items h4 {
-    font-weight:700;
+    font-weight:500;
 }
 /* Overlay appears when you hover over it, Stylings of the children of the overlay */
 #gallery-overlay-RPG:hover,#gallery-overlay-BS2D:hover,#gallery-overlay-OSE:hover,#gallery-overlay-UNC:hover{
