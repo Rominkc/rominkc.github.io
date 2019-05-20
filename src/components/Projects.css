@@ -37,7 +37,7 @@ padding:2%;
 #gallery-overlay-RPG,#gallery-overlay-BS2D,#gallery-overlay-OSE,#gallery-overlay-UNC{
     position:absolute;
     top:95px;
-    background-color: rgba(7, 7, 7, 0.349);
+    background-color: rgba(7, 7, 7, 0.73);
   opacity: 0;
   transition-property: opacity;
   transition-duration: .3s;
@@ -46,7 +46,7 @@ padding:2%;
   display:flex;
   color: white;
   font-size: 2em;
-  border-radius: 10px;
+ 
 }
 .gallery-items h4 {
     font-weight:700;
@@ -63,7 +63,8 @@ padding:2%;
    flex-direction: column;
    align-items:center;
    justify-content: center;
-   width:100%
+   width:100%;
+   height:100%;
 }
 /* Custom Button Styles */
 .gallery-items button{
