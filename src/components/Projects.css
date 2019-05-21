@@ -10,9 +10,9 @@
 /*Calculated gallery dimensions based on aspect ratio, the picture's aspect ratio 
 (width /padding top) i.e 1:1 = 100%/100% These are custom aspect ratios/styles for each of the projects*/
 #gallery-overlay-RPG{
-    width: 50%;
-    padding-top: 97.56%;
-    left:25%;
+    width: 55%;
+    padding-top: 98.56%;
+    left: 22.5%;
 }
 #gallery-overlay-BS2D, #gallery-overlay-UNC{
     width: 100%;
