@@ -16,7 +16,7 @@ const About = (props) => {
                 <Col as="p" id="about-p">
                 I graduated from Baruch College with a B.B.A in Computer Information Systems with original plans of becoming a business analyst. 
                 However, during my capstone course in college I was in charge of creating my team's mobile application, and it made me realize how much I love to code.
-                Since then, I have been mastering the craft that is coding, and working towards becoming a professional web developer through self teaching and building projects with what I have learned.
+                Most of my experience is with Javascript, HTML, and CSS paired with React but I am open and willing to learn any tool/technology that is best fit for the task.
                 </Col>
             </Row>
         <hr style={{border:'.5px solid white'}}></hr>
@@ -41,6 +41,7 @@ const About = (props) => {
                     </ul>
                 </Col>
             </Row>
+            
         </Container>
     );
 }
