@@ -11,6 +11,7 @@ import Contact from './components/Contact';
 import Projects from './components/Projects';
 import VideoBackGround from './components/videobackground';
 library.add(fab,faFilePdf,faEnvelope);
+//source branch acts as "master" branch for git, as master branch is used to host the website build for user pages
 class App extends Component {
   render() {
     return (
