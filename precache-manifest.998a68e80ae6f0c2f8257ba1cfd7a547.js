@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "d598e820d7053ace7311e7c1f442a92a",
-    "url": "/static/media/OuterspaceEsc5.d598e820.jpg"
+    "revision": "25b265227c3885ce7b35b37f96bd45ea",
+    "url": "/static/media/BlockSlice3.25b26522.jpg"
   },
   {
-    "revision": "79e20ae5bbb07f252173",
-    "url": "/static/css/main.e04615a3.chunk.css"
+    "revision": "13ee281ebe679c495343",
+    "url": "/static/css/main.61997115.chunk.css"
   },
   {
     "revision": "fdfcfda2d9b1bf31db52",
@@ -16,8 +16,8 @@ self.__precacheManifest = [
     "url": "/static/media/NycTraffic2.2e4088b9.mp4"
   },
   {
-    "revision": "5e0f909498ad1be58bfa",
-    "url": "/static/js/2.5e0f9094.chunk.js"
+    "revision": "a0e0c61769944db6c4fe",
+    "url": "/static/js/2.a0e0c617.chunk.js"
   },
   {
     "revision": "a00eb0f32cc49872c9e694c3ed6fd70e",
@@ -52,8 +52,8 @@ self.__precacheManifest = [
     "url": "/static/media/OuterspaceEsc4.9907975e.jpg"
   },
   {
-    "revision": "79e20ae5bbb07f252173",
-    "url": "/static/js/main.79e20ae5.chunk.js"
+    "revision": "d598e820d7053ace7311e7c1f442a92a",
+    "url": "/static/media/OuterspaceEsc5.d598e820.jpg"
   },
   {
     "revision": "46ab9b57e42194fdc7c83ec392d8c9cf",
@@ -64,8 +64,8 @@ self.__precacheManifest = [
     "url": "/static/media/BlockSlice2.aa8aced9.jpg"
   },
   {
-    "revision": "25b265227c3885ce7b35b37f96bd45ea",
-    "url": "/static/media/BlockSlice3.25b26522.jpg"
+    "revision": "13ee281ebe679c495343",
+    "url": "/static/js/main.13ee281e.chunk.js"
   },
   {
     "revision": "fdeaf032fb941232919293a5d1a3fbad",
@@ -100,11 +100,31 @@ self.__precacheManifest = [
     "url": "/static/media/UpNxtCrypto5.51e00467.jpg"
   },
   {
-    "revision": "5e0f909498ad1be58bfa",
+    "revision": "bde69bfbfef407af5271116a4137f29e",
+    "url": "/static/media/damage2kOW1.bde69bfb.jpg"
+  },
+  {
+    "revision": "54d04d44f5835c2715818cb2be141ac6",
+    "url": "/static/media/damage2kOW2.54d04d44.jpg"
+  },
+  {
+    "revision": "5aba61778ddf21327a7a82e287813b40",
+    "url": "/static/media/damage2kOW3.5aba6177.jpg"
+  },
+  {
+    "revision": "b6de42fa4bcfab66ca5a39c0192d60b0",
+    "url": "/static/media/damage2kOW4.b6de42fa.jpg"
+  },
+  {
+    "revision": "a7ed2c411b62757791d7a1eeb7c8d167",
+    "url": "/static/media/damage2kOW5.a7ed2c41.jpg"
+  },
+  {
+    "revision": "a0e0c61769944db6c4fe",
     "url": "/static/css/2.b40666b6.chunk.css"
   },
   {
-    "revision": "8ef6e860a364237ccee4c0e2646a7dec",
+    "revision": "b30790bd4c8a6a0b8bc50f0eccabc02a",
     "url": "/index.html"
   }
 ];
