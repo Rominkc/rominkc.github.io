@@ -8,6 +8,7 @@ import RanPgArr from './RanPassImages';
 import OuterspaceEscArr from './OuterspaceEscImages';
 import BlockSliceArr from './BlockSlice2dImages';
 import UpNxtCryptoArr from './UpNxtCryptoImages';
+import Damage2KOWImages from './Damage2KOWImages'
 import './Projects.css';
 import "react-image-lightbox/style.css";
 
@@ -26,18 +27,20 @@ class Projects extends Component {
     //Switch Statement to choose which array of images should be used for src, makes copy of the array for immutability
     switch(ProjectNumber) {
         case 1:
-        Images= [...UpNxtCryptoArr];
-          break;
+            Images= [...UpNxtCryptoArr];
+            break;
         case 2:
-        Images = [...RanPgArr];
-          break;
+            Images = [...Damage2KOWImages];
+            break;
         case 3:
-        Images= [...BlockSliceArr];  
-          break;
+            Images= [...BlockSliceArr];  
+            break;
         case 4:
-        Images= [...OuterspaceEscArr];
-       
-        break;  
+            Images = [...RanPgArr];
+            break;
+        case 5:
+            Images= [...OuterspaceEscArr];
+            break;      
         default: Images=[];
       }
     return(
@@ -70,104 +73,158 @@ class Projects extends Component {
                             <div className="gallery-items">
                             <h4 >UpNxt Crypto</h4>
                             {/*Added paragraph tag for button styles, and so all buttons follow same styling rules, if used anchor tag a warning is given for no href */}
-                            <p style={{width:'100%', marginBottom:'-15px'}}>
+                            <p className="button-paragraph">
                                 <button type="button" onClick={() => this.setState({ isOpen: true,ProjectNumber:1 })}>
                                 See Project
                                 </button>
                                 </p>
-                                <a href='https://github.com/Rominkc/upnxt-crypto'
-                                    style={{width:'100%', marginBottom:'-15px'}}>
+                            <p className="button-paragraph">
+                                <a href='https://github.com/Rominkc/upnxt-crypto'>
                                         <button type="button"  >
                                         See the Code
                                         </button>
                                 </a>
-                                <a href='https://upnxt-crypto.herokuapp.com/'
-                                    style={{width:'100%', marginBottom:'-15px'}}>
+                            </p>
+                            <p className="button-paragraph">
+                                <a href='https://upnxt-crypto.herokuapp.com/'>
                                         <button type="button"  >
                                         See the Website
                                         </button>
                                 </a>
-                                <a href='https://docs.google.com/document/d/16BS6toEbC46MhtTcQfNwNa4OliJ46I5YQbLNCtKK03E/edit?usp=sharing'
-                                    style={{width:'100%', marginBottom:'-15px'}}>
+                            </p>
+                            <p className="button-paragraph">
+                                <a href='https://docs.google.com/document/d/16BS6toEbC46MhtTcQfNwNa4OliJ46I5YQbLNCtKK03E/edit?usp=sharing'>
                                         <button type="button"  >
                                         See Project Design
                                         </button>
-                                </a>      
+                                </a>  
+                            </p>
+                                  
                             </div>
                         </div>        
                 </Col>
-                <Col xs={12} md={4} >
-                <img src={RanPgArr[0]} className='image-styles-portfV'alt="RandomPasswordGen" />  
-                {/*Divs for overlay of base image, takes the img and divs out of flow so they can overlap and match in width and height */}
-                <div id="gallery-overlay-RPG">
-                    <div className="gallery-items">
-                        <h4 >Project RPG</h4>
-                            <button type="button" onClick={() => this.setState({ isOpen: true,ProjectNumber:2 })}>
-                            See Project
-                            </button>
-                            {/*Make width of anchor tag same as width of parent element so that button gets correct width % based on parent element, and not the anchor tag */}
-                            <a href='https://github.com/Rominkc/Project-Random-Password-Generator'
-                                style={{width:'100%'}}>
-                                <button type="button"  >
-                                See the Code
+                <Col xs={12} md={4}>
+                        <img src={Damage2KOWImages[0]} className='image-styles-portfH' alt="Damage to Kill Overwatch"/>
+                        <div id="gallery-overlay-UNC">
+                            <div className="gallery-items">
+                            <h4 >Damage to Kill Overwatch</h4>
+                            {/*Added paragraph tag for button styles, and so all buttons follow same styling rules, if used anchor tag a warning is given for no href */}
+                            <p className="button-paragraph">
+                                <button type="button" onClick={() => this.setState({ isOpen: true,ProjectNumber:2 })}>
+                                See Project
                                 </button>
-                            </a>
-                            <a href='https://docs.google.com/presentation/d/1UMnyrL0oHHAkyF5MLO8H1rIuQPp5tRMCedCp3vj68Ls/edit?usp=sharing'
-                                style={{width:'100%'}}>
-                                <button type="button"  >
-                                See Project Design
-                                </button>
-                            </a>      
-                        </div>
-                    </div> 
-                       
-                </Col> 
+                                </p>
+                            <p className="button-paragraph">
+                                <a href='https://github.com/Rominkc/Damage-to-Kill-Overwatch'>
+                                        <button type="button"  >
+                                        See the Code
+                                        </button>
+                                </a>
+                            </p>
+                            <p className="button-paragraph">
+                                <a href='https://d2koverwatch.netlify.com/'>
+                                        <button type="button"  >
+                                        See the Website
+                                        </button>
+                                </a>
+                            </p>  
+                            <p className="button-paragraph">
+                                <a href='https://docs.google.com/document/d/1g9e8KzVP5M5RCiGpKSYfugOqaGhXi6Akp1FJ5lSe-5w/edit?usp=sharing'>
+                                        <button type="button"  >
+                                        See Project Design
+                                        </button>
+                                </a>       
+                            </p>   
+                                 
+                            </div>
+                        </div>        
+                </Col>
                 <Col xs={12} md={4}>
                     <img src={BlockSliceArr[0]} className='image-styles-portfH' alt="BlockSlice2d"/>
                     <div id="gallery-overlay-BS2D">
                         <div className="gallery-items">
                         <h4 >BlockSlice 2D *Beta*</h4>
+                        <p className="button-paragraph">
                             <button type="button" onClick={() => this.setState({ isOpen: true,ProjectNumber:3 })}>
                             See Project
                             </button>
-                            <a href='https://github.com/Rominkc/Block-Slice-2D-Web'
-                                   style={{width:'100%'}}>
+                        </p>
+                        <p className="button-paragraph">
+                            <a href='https://github.com/Rominkc/Block-Slice-2D-Web'>
                                     <button type="button"  >
                                     See the Code
                                     </button>
                             </a>
+                        </p>
+                        <p className="button-paragraph">
                             <a href='https://www.newgrounds.com/portal/view/710631'
                                    style={{width:'100%'}}>
                                     <button type="button"  >
                                     Play the Game
                                     </button>
-                            </a>
+                            </a>  
+                        </p> 
+                           
                         </div>
                     </div>        
-                </Col>
+                </Col>    
+           
+         
            
               
             </Row> 
             <Row>
-            <Col xs={12} md={4}>
+                <Col xs={12} md={4} >
+                    <img src={RanPgArr[0]} className='image-styles-portfV'alt="RandomPasswordGen" />  
+                    {/*Divs for overlay of base image, takes the img and divs out of flow so they can overlap and match in width and height */}
+                    <div id="gallery-overlay-RPG">
+                        <div className="gallery-items">
+                            <h4 >Project RPG</h4>
+                            <p className="button-paragraph-L">
+                                <button type="button" onClick={() => this.setState({ isOpen: true,ProjectNumber:4 })}>
+                                See Project
+                                </button>
+                            </p>
+                            <p className="button-paragraph-L">   
+                                {/*Make width of anchor tag same as width of parent element so that button gets correct width % based on parent element, and not the anchor tag */}
+                                <a href='https://github.com/Rominkc/Project-Random-Password-Generator'>
+                                    <button type="button"  >
+                                    See the Code
+                                    </button>
+                                </a>
+                            </p>
+                            <p className="button-paragraph-L">
+                                <a href='https://docs.google.com/presentation/d/1UMnyrL0oHHAkyF5MLO8H1rIuQPp5tRMCedCp3vj68Ls/edit?usp=sharing'>
+                                    <button type="button"  >
+                                    See Project Design
+                                    </button>
+                                </a>
+                            </p>         
+                            </div>
+                        </div> 
+                       
+                </Col>        
+                <Col xs={12} md={4}>
                     <img src={OuterspaceEscArr[0]} className='image-styles-portfH' alt="OuterSpaceEscape" />
                     <div id="gallery-overlay-OSE">
                         <div className="gallery-items">
                         <h4 >Outerspace Escape</h4>
-                        <button type="button" onClick={() => this.setState({ isOpen: true,ProjectNumber:4 })}>
-                        See Project
-                        </button>
-                        <a href='https://github.com/Rominkc/Outerspace-Escape'
-                                   style={{width:'100%'}}>
+                        <p className="button-paragraph">
+                            <button type="button" onClick={() => this.setState({ isOpen: true,ProjectNumber:5 })}>
+                            See Project
+                            </button>
+                        </p>
+                        <p className="button-paragraph">
+                            <a href='https://github.com/Rominkc/Outerspace-Escape'>
                                     <button type="button"  >
                                     See the Code
                                     </button>
                             </a> 
-                            
+                        </p>   
                         </div>
                     </div>
                 </Col>
-               
+                        
             </Row>     
         </Container>
     );

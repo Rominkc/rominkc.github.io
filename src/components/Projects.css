@@ -78,7 +78,8 @@ padding:2%;
     transition-property: background-color, border, transform;
     transition-duration: .3s;
     margin-top: 5%;
-    width:76%;
+    /*width:76%;*/
+    width:80%;
     
 }
 .gallery-items button:hover{
@@ -100,4 +101,12 @@ button:focus {
     .col-md-4 {
         text-align: center;
     }
+}
+.button-paragraph{
+    width:100%;
+    margin-bottom:-15px;
+}
+.button-paragraph-L{
+    width:100%;
+    margin-bottom:-5px;
 }
