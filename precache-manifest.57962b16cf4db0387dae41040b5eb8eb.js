@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/static/media/BlockSlice3.25b26522.jpg"
   },
   {
-    "revision": "13ee281ebe679c495343",
+    "revision": "97d1d5e5813d0d46880a",
     "url": "/static/css/main.61997115.chunk.css"
   },
   {
@@ -64,8 +64,8 @@ self.__precacheManifest = [
     "url": "/static/media/BlockSlice2.aa8aced9.jpg"
   },
   {
-    "revision": "13ee281ebe679c495343",
-    "url": "/static/js/main.13ee281e.chunk.js"
+    "revision": "97d1d5e5813d0d46880a",
+    "url": "/static/js/main.97d1d5e5.chunk.js"
   },
   {
     "revision": "fdeaf032fb941232919293a5d1a3fbad",
@@ -80,24 +80,24 @@ self.__precacheManifest = [
     "url": "/static/media/BlockSlice6.b7907892.jpg"
   },
   {
-    "revision": "a0d8cb8cacdd1ed902c49d61586573cc",
-    "url": "/static/media/UpNxtCrypto1.a0d8cb8c.jpg"
+    "revision": "90dd5fd8fcd7879d7590e60084093404",
+    "url": "/static/media/UpNxtCrypto1.90dd5fd8.jpg"
   },
   {
-    "revision": "1c4cbdaca9049a95fd3e798a273d966c",
-    "url": "/static/media/UpNxtCrypto2.1c4cbdac.jpg"
+    "revision": "a3642809358d65f7e58b23ff8929a583",
+    "url": "/static/media/UpNxtCrypto2.a3642809.jpg"
   },
   {
-    "revision": "b01457e5f54cf3dd16b7722ab176ec22",
-    "url": "/static/media/UpNxtCrypto3.b01457e5.jpg"
+    "revision": "5e975347dce8ea256e81c67cea4324a4",
+    "url": "/static/media/UpNxtCrypto3.5e975347.jpg"
   },
   {
-    "revision": "3177b17a567826aee6b8214aa51595a7",
-    "url": "/static/media/UpNxtCrypto4.3177b17a.jpg"
+    "revision": "e3d24288206be523405a15c1ea4dcf67",
+    "url": "/static/media/UpNxtCrypto4.e3d24288.jpg"
   },
   {
-    "revision": "51e00467886d4de5b9086a49a17ae976",
-    "url": "/static/media/UpNxtCrypto5.51e00467.jpg"
+    "revision": "75b7ad34c0aa919d73d2c9b00d62e35d",
+    "url": "/static/media/UpNxtCrypto5.75b7ad34.jpg"
   },
   {
     "revision": "bde69bfbfef407af5271116a4137f29e",
@@ -124,7 +124,7 @@ self.__precacheManifest = [
     "url": "/static/css/2.b40666b6.chunk.css"
   },
   {
-    "revision": "b30790bd4c8a6a0b8bc50f0eccabc02a",
+    "revision": "adbd950558eab9e96ad7ef2fc4dc1944",
     "url": "/index.html"
   }
 ];
