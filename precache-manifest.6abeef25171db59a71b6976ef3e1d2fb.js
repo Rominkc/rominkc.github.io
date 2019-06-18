@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/static/media/BlockSlice3.25b26522.jpg"
   },
   {
-    "revision": "97d1d5e5813d0d46880a",
+    "revision": "71d80edd5e52603db145",
     "url": "/static/css/main.61997115.chunk.css"
   },
   {
@@ -64,8 +64,8 @@ self.__precacheManifest = [
     "url": "/static/media/BlockSlice2.aa8aced9.jpg"
   },
   {
-    "revision": "97d1d5e5813d0d46880a",
-    "url": "/static/js/main.97d1d5e5.chunk.js"
+    "revision": "71d80edd5e52603db145",
+    "url": "/static/js/main.71d80edd.chunk.js"
   },
   {
     "revision": "fdeaf032fb941232919293a5d1a3fbad",
@@ -88,8 +88,8 @@ self.__precacheManifest = [
     "url": "/static/media/UpNxtCrypto2.a3642809.jpg"
   },
   {
-    "revision": "5e975347dce8ea256e81c67cea4324a4",
-    "url": "/static/media/UpNxtCrypto3.5e975347.jpg"
+    "revision": "2201ad5ba7455963d7dfee685d5199df",
+    "url": "/static/media/UpNxtCrypto3.2201ad5b.jpg"
   },
   {
     "revision": "e3d24288206be523405a15c1ea4dcf67",
@@ -124,7 +124,7 @@ self.__precacheManifest = [
     "url": "/static/css/2.b40666b6.chunk.css"
   },
   {
-    "revision": "adbd950558eab9e96ad7ef2fc4dc1944",
+    "revision": "cd3e3ebae919c55a0e31f87a7b448d27",
     "url": "/index.html"
   }
 ];
