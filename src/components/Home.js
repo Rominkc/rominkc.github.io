@@ -4,7 +4,7 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
-import pdf from '../assets/Romin_Kershaw_Resume_2019.pdf';
+import pdf from '../assets/Romin_Kershaw_Resume.pdf';
 import './Home.css';
 
 
