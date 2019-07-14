@@ -79,21 +79,24 @@ class Projects extends Component {
                                 </button>
                                 </p>
                             <p className="button-paragraph">
-                                <a href='https://github.com/Rominkc/upnxt-crypto'>
+                                <a href='https://github.com/Rominkc/upnxt-crypto'
+                                    target="_blank" rel="noopener noreferrer">
                                         <button type="button"  >
                                         See the Code
                                         </button>
                                 </a>
                             </p>
                             <p className="button-paragraph">
-                                <a href='https://upnxt-crypto.herokuapp.com/'>
+                                <a href='https://upnxt-crypto.herokuapp.com/'
+                                    target="_blank" rel="noopener noreferrer">
                                         <button type="button"  >
                                         See the Website
                                         </button>
                                 </a>
                             </p>
                             <p className="button-paragraph">
-                                <a href='https://docs.google.com/document/d/16BS6toEbC46MhtTcQfNwNa4OliJ46I5YQbLNCtKK03E/edit?usp=sharing'>
+                                <a href='https://docs.google.com/document/d/16BS6toEbC46MhtTcQfNwNa4OliJ46I5YQbLNCtKK03E/edit?usp=sharing'
+                                    target="_blank" rel="noopener noreferrer">
                                         <button type="button"  >
                                         See Project Design
                                         </button>
@@ -115,21 +118,24 @@ class Projects extends Component {
                                 </button>
                                 </p>
                             <p className="button-paragraph">
-                                <a href='https://github.com/Rominkc/Damage-to-Kill-Overwatch'>
+                                <a href='https://github.com/Rominkc/Damage-to-Kill-Overwatch'
+                                    target="_blank" rel="noopener noreferrer">
                                         <button type="button"  >
                                         See the Code
                                         </button>
                                 </a>
                             </p>
                             <p className="button-paragraph">
-                                <a href='https://d2koverwatch.netlify.com/'>
+                                <a href='https://d2koverwatch.netlify.com/'
+                                    target="_blank" rel="noopener noreferrer">
                                         <button type="button"  >
                                         See the Website
                                         </button>
                                 </a>
                             </p>  
                             <p className="button-paragraph">
-                                <a href='https://docs.google.com/document/d/1g9e8KzVP5M5RCiGpKSYfugOqaGhXi6Akp1FJ5lSe-5w/edit?usp=sharing'>
+                                <a href='https://docs.google.com/document/d/1g9e8KzVP5M5RCiGpKSYfugOqaGhXi6Akp1FJ5lSe-5w/edit?usp=sharing'
+                                    target="_blank" rel="noopener noreferrer">
                                         <button type="button"  >
                                         See Project Design
                                         </button>
@@ -150,7 +156,8 @@ class Projects extends Component {
                             </button>
                         </p>
                         <p className="button-paragraph">
-                            <a href='https://github.com/Rominkc/Block-Slice-2D-Web'>
+                            <a href='https://github.com/Rominkc/Block-Slice-2D-Web'
+                                target="_blank" rel="noopener noreferrer">
                                     <button type="button"  >
                                     See the Code
                                     </button>
@@ -158,7 +165,8 @@ class Projects extends Component {
                         </p>
                         <p className="button-paragraph">
                             <a href='https://www.newgrounds.com/portal/view/710631'
-                                   style={{width:'100%'}}>
+                                   style={{width:'100%'}}
+                                   target="_blank" rel="noopener noreferrer">
                                     <button type="button"  >
                                     Play the Game
                                     </button>
@@ -187,14 +195,16 @@ class Projects extends Component {
                             </p>
                             <p className="button-paragraph-L">   
                                 {/*Make width of anchor tag same as width of parent element so that button gets correct width % based on parent element, and not the anchor tag */}
-                                <a href='https://github.com/Rominkc/Project-Random-Password-Generator'>
+                                <a href='https://github.com/Rominkc/Project-Random-Password-Generator'
+                                    target="_blank" rel="noopener noreferrer">
                                     <button type="button"  >
                                     See the Code
                                     </button>
                                 </a>
                             </p>
                             <p className="button-paragraph-L">
-                                <a href='https://docs.google.com/presentation/d/1UMnyrL0oHHAkyF5MLO8H1rIuQPp5tRMCedCp3vj68Ls/edit?usp=sharing'>
+                                <a href='https://docs.google.com/presentation/d/1UMnyrL0oHHAkyF5MLO8H1rIuQPp5tRMCedCp3vj68Ls/edit?usp=sharing'
+                                    target="_blank" rel="noopener noreferrer">
                                     <button type="button"  >
                                     See Project Design
                                     </button>
@@ -215,7 +225,8 @@ class Projects extends Component {
                             </button>
                         </p>
                         <p className="button-paragraph">
-                            <a href='https://github.com/Rominkc/Outerspace-Escape'>
+                            <a href='https://github.com/Rominkc/Outerspace-Escape'
+                                target="_blank" rel="noopener noreferrer">
                                     <button type="button"  >
                                     See the Code
                                     </button>
