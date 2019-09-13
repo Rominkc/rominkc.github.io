@@ -1,7 +1,11 @@
-.Navbar-sty{
-  color:white;
+.Navbar-sty {
+  color: white;
   font-size: 1.5rem;
 }
-.Navbar-sty:hover{
+.Navbar-sty:hover {
   color: rgb(223, 223, 223);
+}
+.nav-link {
+  /*Overwrite Bootstrap css so links can only be can only clicked by pressing the word instead of the area the element takes up */
+  display: inline-block;
 }

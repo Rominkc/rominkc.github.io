@@ -7,13 +7,25 @@
 .row-head {
   text-align: center;
   justify-content: center;
-  margin-top: 100px;
+  margin-top: 20px;
   font-size: 2.5rem;
 }
 .ul-exp {
   list-style-type: none;
-  font-size: 2rem;
+  font-size: 1rem;
 }
 #about-p {
-  font-size: 2rem;
+  font-size: 1rem;
+}
+@media (min-width: 768px) {
+  #about-p {
+    font-size: 2rem;
+  }
+  .ul-exp {
+    list-style-type: none;
+    font-size: 2rem;
+  }
+  .row-head {
+    margin-top: 100px;
+  }
 }
