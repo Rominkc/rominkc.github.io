@@ -87,7 +87,7 @@ class Projects extends Component {
                                 </a>
                             </p>
                             <p className="button-paragraph">
-                                <a href='https://upnxt-crypto.herokuapp.com/'
+                                <a href='https://upnxt-crypto.netlify.app'
                                     target="_blank" rel="noopener noreferrer">
                                         <button type="button"  >
                                         See the Website
